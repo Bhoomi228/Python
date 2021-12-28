@@ -1,0 +1,24 @@
+Data types in Python
+
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	    set, frozenset
+Boolean Type:	bool
+Binary Types:   bytes, bytearray, memoryview
+
+
+
+Print function in Python
+
+The print() function prints the specified message to the screen, or other standard output device.
+The message can be a string, or any other object, the object will be converted into a string before written to the screen.
+calling print() without arguments results in a blank line
+
+
+Compiler	                                                                                        Interpreter
+It considers the completion of your program as input for converting to machine code.	         It considers 1 statement in your program at a time as input for converting to machine code.
+It usually generates intermediate code in the form of the object file (.obj).	                 It doesn't create an intermediate object (.obj) code.
+Faster execution of control statements as compared to the interpreter.	                         Slower execution of control statements as compared to the compiler.
+Detected errors in the program get displayed after the entire program is read by compiler.	     Detected errors in the program get displayed after each instruction read by the interpreter.
+Example: C++, Java.	   																			 Example. BASIC, Python, PHP.
